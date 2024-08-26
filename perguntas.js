@@ -1,171 +1,166 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Assim que saiu da escola, você se depara com uma cidade em ruínas e um grupo de sobreviventes lutando para se defender de zumbis. Qual é o seu primeiro pensamento?",
         alternativas: [
             {
                 texto: "Isso é assustador!",
                 afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer.",
-                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                    "No início, ficou com medo do que estava acontecendo e de como sobreviveria.",
+                    "Achou aterrorizante pensar na velocidade com que o mundo desmoronou."
                 ],
                 proxima: 1,
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Eu preciso me preparar!",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia.",
-                    "Pensou que IA pode ajudar em tarefas da sua vida."
+                    "Imediatamente procurou um lugar seguro e pensou em como se proteger.",
+                    "Pensou que precisava encontrar recursos e aliados para sobreviver."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado:"Sobreviver a um apocalipse zumbi é aterrorizante, mas logo depois de se esconder, você encontra um grupo de sobreviventes liderado por um veterano chamado Vinícius. Ele pede que todos escrevam um plano de sobrevivência. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Faz uma pesquisa em seus próprios conhecimentos sobre como sobreviver em situações extremas.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Lembrou-se de algumas lições sobre sobrevivência que aprendeu em filmes e livros.",
+                    "Percebeu que precisaria confiar em sua própria intuição e criatividade para criar um bom plano."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Conversa com outros sobreviventes para reunir informações e criar um plano em grupo.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Sentiu que trabalhar em equipe era a melhor forma de sobreviver.",
+                    "Achou que era mais seguro juntar ideias e experiências diferentes para criar um plano sólido."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Durante a busca por um esconderijo, o grupo de sobreviventes encontra um prédio aparentemente abandonado. Vocês precisam decidir se devem explorar o prédio ou seguir em frente. Qual é a sua decisão?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Explorar o prédio em busca de suprimentos.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Acredita que o risco vale a pena se puderem encontrar algo útil.",
+                    "Ajuda a liderar a exploração, procurando recursos e possíveis ameaças."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Seguir em frente e evitar o prédio.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Prefere não arriscar e manter o grupo em movimento.",
+                    "Incentiva os outros a se concentrarem na busca por um local seguro e sem zumbis."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Explorando o prédio, vocês encontram uma sala cheia de provisões, mas também descobrem que há zumbis em outros andares. O grupo precisa decidir se vai lutar para ficar com as provisões ou se vai fugir. O que você faz?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Lutar pelos suprimentos e defender o local.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Decide que os suprimentos são vitais e vale a pena lutar por eles.",
+                    "Organiza uma estratégia para manter os zumbis afastados e garantir a segurança do grupo."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Fugir e procurar outro local.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Acha que os riscos são muito altos e decide recuar.",
+                    "Lidera a retirada, garantindo que todos saiam em segurança."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Após garantir provisões ou fugir do prédio, o grupo encontra um novo desafio: um armazém próximo que pode conter mais recursos, mas ele está em uma área infestada de zumbis. Qual é a sua decisão?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Explorar o armazém em busca de suprimentos.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Decide que a recompensa vale o risco e organiza uma equipe para explorar o local.",
+                    "Prepara-se para uma missão perigosa, sabendo que os recursos são essenciais para a sobrevivência."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Evitar o armazém e continuar procurando em locais menos perigosos.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Prefere não arriscar a segurança do grupo e decide continuar procurando em outros locais.",
+                    "Mantém o grupo unido e focado em encontrar uma solução mais segura para a falta de suprimentos."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Novas tecnologias trazem novos desafios, por isso após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "No caminho para o armazém ou para continuar a busca em outros locais, você e o grupo são cercados por uma horda de zumbis. Qual é a sua reação?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Lutar contra os zumbis e tentar abrir caminho.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Decide que a única opção é lutar, organizando o grupo para se defender.",
+                    "Utiliza o que aprendeu para maximizar as chances de sobrevivência, mesmo em uma situação desesperadora."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Tentar fugir antes que os zumbis cheguem.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Decide que a melhor chance de sobrevivência é fugir e lidera o grupo em uma tentativa desesperada de escapar.",
+                    "Usa seu conhecimento do terreno para tentar encontrar uma rota de fuga segura."
                 ],
                 proxima: 7,
             },
         ]
     },
     {
-        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Depois de lutar ou escapar dos zumbis, vocês finalmente encontram um esconderijo seguro, mas estão ficando sem comida. Vocês precisam decidir se devem ficar no esconderijo ou sair em busca de mais suprimentos. Qual é a sua escolha?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Ficar no esconderijo e racionar o que têm.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Decide que é mais seguro ficar e racionar os suprimentos enquanto esperam por um momento mais seguro para sair.",
+                    "Incentiva o grupo a economizar e planejar como estender os recursos ao máximo."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Sair em busca de mais suprimentos.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Acredita que é necessário arriscar para encontrar mais comida e água.",
+                    "Se voluntaria para explorar e encontrar novos recursos."
                 ],
                 proxima: 7,
             },
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Após mais uma jornada perigosa em busca de suprimentos, vocês retornam ao esconderijo, mas descobrem que um grupo rival está tentando invadir. O que você faz?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Defender o esconderijo e lutar contra o grupo rival.",
                 afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-                    "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
+                    "Decide que o esconderijo é vital para a sobrevivência e organiza a defesa.",
+                    "Luta com todas as forças para proteger o local e os suprimentos."
                 ],
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Tentar negociar ou se aliar ao grupo rival.",
                 afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
-                    "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
-                    "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
+                    "Acredita que uma aliança pode ser benéfica e tenta negociar com o grupo rival.",
+                    "Consegue convencer os outros de que a cooperação é a melhor estratégia."
                 ],
             },
         ]
